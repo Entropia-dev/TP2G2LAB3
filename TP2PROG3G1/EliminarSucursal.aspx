@@ -51,16 +51,16 @@
             <tr>
                 <td class="auto-style7">Ingrese la id de sucursal</td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="424px"></asp:TextBox>
+                    <asp:TextBox ID="txtIdELiminar" runat="server" Width="424px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Button" Width="188px" />
+                    <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" Width="188px" OnClick="btnEliminar_Click" />
                 </td>
             </tr>
         </table>
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lblMensaje" runat="server"></asp:Label>
     </form>
 </body>
 </html>
