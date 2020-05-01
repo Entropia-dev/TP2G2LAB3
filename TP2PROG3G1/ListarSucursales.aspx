@@ -36,9 +36,14 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">Agregar Sucursal </td>
-                    <td class="auto-style2">Listado de sucursales</td>
-                    <td>Eliminar sucursal</td>
+                    <td class="auto-style2">&nbsp;<asp:HyperLink ID="hlAgregarSuc" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:HyperLink ID="hlListadoSuc" runat="server" NavigateUrl="~/ListarSucursales.aspx">Listado de Sucursales</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="hlEliminarSuc" runat="server" NavigateUrl="~/EliminarSucursal.aspx">Eliminar Sucursal</asp:HyperLink>
+                    </td>
                 </tr>
             </table>
         </div>
@@ -56,18 +61,18 @@
             <tr>
                 <td class="auto-style4">Busqueda ingrese ID sucursal</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="346px"></asp:TextBox>
+                    <asp:TextBox ID="txtIngreseSucursal" runat="server" Width="346px"></asp:TextBox>
                 </td>
                 <td class="auto-style6">
-                    <asp:Button ID="Button1" runat="server" Text="Button" Width="135px" />
+                    <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" Width="135px" />
                 </td>
                 <td>
-                    <asp:Button ID="Button2" runat="server" Text="Button" Width="161px" />
+                    <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" Width="161px" />
                 </td>
             </tr>
         </table>
         <p>
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView ID="grdListadoSucursal" runat="server">
             </asp:GridView>
         </p>
     </form>
