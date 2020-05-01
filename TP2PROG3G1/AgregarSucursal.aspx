@@ -41,8 +41,10 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">Agregar Sucursal </td>
-                    <td class="auto-style2">Listado de sucursales</td>
+                   <%-- <td class="auto-style2">Agregar Sucursal</td>
+                    <td class="auto-style2">Listado de sucursales</td>--%>
+                    <asp:HyperLink runat="server" Text="Agregar sucursal" NavigateUrl="~/AgregarSucursal.aspx"></asp:HyperLink>
+                    <asp:HyperLink runat="server" Text="Listado de sucursales" NavigateUrl="~/ListarSucursales.aspx"></asp:HyperLink>
                     <td>Eliminar sucursal</td>
                 </tr>
             </table>
@@ -80,14 +82,14 @@
             <tr>
                 <td class="auto-style4">Provincia:</td>
                 <td>
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="ddlpcias" runat="server">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style4">Direccion:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
