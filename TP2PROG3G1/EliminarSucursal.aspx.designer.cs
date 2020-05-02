@@ -24,6 +24,33 @@ namespace TP2PROG3G1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Control hlAgregarSuc.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlAgregarSuc;
+
+        /// <summary>
+        /// Control hlListadoSuc.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlListadoSuc;
+
+        /// <summary>
+        /// Control hlEliminarSuc.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hlEliminarSuc;
+
+        /// <summary>
         /// Control txtIdELiminar.
         /// </summary>
         /// <remarks>
@@ -33,13 +60,13 @@ namespace TP2PROG3G1
         protected global::System.Web.UI.WebControls.TextBox txtIdELiminar;
 
         /// <summary>
-        /// Control btnEliminar.
+        /// Control Button1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminar;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
         /// Control lblMensaje.

@@ -64,10 +64,10 @@
                     <asp:TextBox ID="txtIngreseSucursal" runat="server" Width="346px"></asp:TextBox>
                 </td>
                 <td class="auto-style6">
-                    <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" Width="135px" />
+                    <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" Width="135px" OnClick="btnFiltrar_Click1" />
                 </td>
                 <td>
-                    <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" Width="161px" />
+                    <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" Width="161px" OnClick="btnMostrar_Click1" />
                 </td>
             </tr>
         </table>

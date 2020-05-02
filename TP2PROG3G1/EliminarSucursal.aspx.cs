@@ -11,13 +11,18 @@ namespace TP2PROG3G1
 {
     public partial class Actividad2 : System.Web.UI.Page
     {
-        private Conexion conexion = new Conexion();
+        private conexiones conexion = new conexiones();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
         {
             string consulta = "DELETE FROM SUCURSAL WHERE ID_SUCURSAL=" + txtIdELiminar.Text;
             conexion.ejecutarTransaccion(consulta);

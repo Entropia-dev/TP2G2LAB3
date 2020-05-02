@@ -41,9 +41,14 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2">Agregar Sucursal </td>
-                    <td class="auto-style2">Listado de sucursales</td>
-                    <td>Eliminar sucursal</td>
+                    <td class="auto-style2">&nbsp;<asp:HyperLink ID="hlAgregarSuc" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:HyperLink ID="hlListadoSuc" runat="server" NavigateUrl="~/ListarSucursales.aspx">Listado de Sucursales</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="hlEliminarSuc" runat="server" NavigateUrl="~/EliminarSucursal.aspx">Eliminar Sucursal</asp:HyperLink>
+                    </td>
                 </tr>
             </table>
         </div>
@@ -80,14 +85,14 @@
             <tr>
                 <td class="auto-style4">Provincia:</td>
                 <td>
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="ddlpcias" runat="server">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style4">Direccion:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -97,6 +102,7 @@
                 </td>
             </tr>
         </table>
+        <asp:Label ID="Label1" runat="server"></asp:Label>
     </form>
 </body>
 </html>

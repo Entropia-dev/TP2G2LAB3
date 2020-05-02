@@ -34,15 +34,18 @@
 <body>
     <form id="form1" runat="server">
         <div>
-                        <table class="auto-style1">
+                       <table class="auto-style1">
                 <tr>
-                    <td class="auto-style3">Agregar Sucursal </td>
-                    <td class="auto-style3">Listado de sucursales</td>
-                    <td class="auto-style4">Eliminar sucursal</td>
+                    <td class="auto-style2">&nbsp;<asp:HyperLink ID="hlAgregarSuc" runat="server" NavigateUrl="~/AgregarSucursal.aspx">Agregar Sucursal</asp:HyperLink>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:HyperLink ID="hlListadoSuc" runat="server" NavigateUrl="~/ListarSucursales.aspx">Listado de Sucursales</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="hlEliminarSuc" runat="server" NavigateUrl="~/EliminarSucursal.aspx">Eliminar Sucursal</asp:HyperLink>
+                    </td>
                 </tr>
             </table>
-        </div>
-        <table class="auto-style5">
             <tr>
                 <td><strong>Eliminar sucursales</strong></td>
             </tr>
@@ -54,7 +57,7 @@
                     <asp:TextBox ID="txtIdELiminar" runat="server" Width="424px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" Width="188px" OnClick="btnEliminar_Click" />
+                    <asp:Button ID="Button1" runat="server" Text="Eliminar Sucursal" Width="188px" OnClick="Button1_Click" />
                 </td>
             </tr>
         </table>
